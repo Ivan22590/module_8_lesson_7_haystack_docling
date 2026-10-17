@@ -1,0 +1,17 @@
+# Haystack 3.x — фреймворк агента и RAG (актуальная ветка; 2.x — архивная)
+haystack-ai>=3.4.0,<4
+pinecone-haystack>=6.4.0,<7
+
+# Docling — локальный парсинг PDF, DOCX, PPTX, XLSX, HTML и др.
+# Внимание: тянет torch/transformers (тяжёлая установка), модели
+# докачиваются в кэш Hugging Face при первом запуске.
+docling>=2.140,<3
+docling-haystack>=2.0.0,<3
+
+# Telegram-бот
+pyTelegramBotAPI>=4.25.0
+
+# Сеть и утилиты
+requests>=2.32.0
+beautifulsoup4>=4.12.3
+python-dotenv>=1.0.1

@@ -1,0 +1,33 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Переменные окружения (секреты)
+.env
+
+# Кэш и артефакты Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Логи и временные файлы
+*.log
+tmp/
+.tmp/
+
+# Редакторы / IDE / ОС
+.idea/
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Локальный кэш моделей Docling / Hugging Face
+models/
+.cache/
